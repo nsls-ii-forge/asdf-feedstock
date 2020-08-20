@@ -5,7 +5,7 @@ Home: http://github.com/spacetelescope/asdf
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python tools to handle ASDF files
 
