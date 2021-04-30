@@ -45,7 +45,7 @@ about:
   home: http://github.com/spacetelescope/asdf
   license: BSD-3-Clause
   license_family: BSD
-  license_file: licenses/LICENSE.rst
+  license_file: LICENSE
   summary: Python tools to handle ASDF files
   description: |
     Python library for reading and writing ASDF files. The Advanced Scientific
