@@ -1,6 +1,6 @@
 {% set name = "asdf" %}
-{% set version = "2.7.3" %}
-{% set sha256 = "f7ea14e4df23ec5d94a9c1f2ed743526f7c4df3c9253ebd915b5585e92c8be85" %}
+{% set version = "2.7.4" %}
+{% set sha256 = "86e90c2e2f7871ad190d25700f0ee97ea288f79553c9c7148e705d54051545d6" %}
 
 package:
   name: {{ name|lower }}
@@ -45,7 +45,7 @@ about:
   home: http://github.com/spacetelescope/asdf
   license: BSD-3-Clause
   license_family: BSD
-  license_file: licenses/LICENSE.rst
+  license_file: LICENSE
   summary: Python tools to handle ASDF files
   description: |
     Python library for reading and writing ASDF files. The Advanced Scientific
