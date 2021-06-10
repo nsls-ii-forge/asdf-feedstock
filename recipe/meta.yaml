@@ -26,6 +26,7 @@ requirements:
   run:
     - python >=3.6,!=3.9.5
     - pyyaml >=3.10
+    - jmespath
     - jsonschema >=2.3.0
     - pytest >=2.7.2
     - numpy >=1.8
