@@ -20,11 +20,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.6,!=3.9.5
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.6
+    - python >=3.6,!=3.9.5
     - pyyaml >=3.10
     - jsonschema >=2.3.0
     - pytest >=2.7.2
