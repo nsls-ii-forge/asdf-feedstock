@@ -1,6 +1,6 @@
 {% set name = "asdf" %}
-{% set version = "2.7.4" %}
-{% set sha256 = "86e90c2e2f7871ad190d25700f0ee97ea288f79553c9c7148e705d54051545d6" %}
+{% set version = "2.8.1" %}
+{% set sha256 = "6e9ddf304dc54dae6f723eea5285041aabee236bb04a9235df30dc1605af6c9c" %}
 
 package:
   name: {{ name|lower }}
@@ -20,12 +20,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.6,!=3.9.5
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.6
+    - python >=3.6,!=3.9.5
     - pyyaml >=3.10
+    - jmespath
     - jsonschema >=2.3.0
     - pytest >=2.7.2
     - numpy >=1.8
